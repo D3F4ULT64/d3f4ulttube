@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "d3f4ulttube"
+version = "0.1.0"
+description = "A simple, turtle-like Python interface for downloading YouTube videos, audio, and thumbnails, powered by yt-dlp."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Your Name", email = "you@example.com" }
+]
+keywords = ["youtube", "yt-dlp", "downloader", "video", "audio", "turtle"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Multimedia :: Sound/Audio",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "yt-dlp>=2024.3.10",
+]
+
+[project.optional-dependencies]
+gui = ["PySide6>=6.5"]
+gui-qt5 = ["PySide2>=5.15"]
+dev = ["pytest>=7.4", "build>=1.0"]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/d3f4ulttube"
+Repository = "https://github.com/yourusername/d3f4ulttube"
+Issues = "https://github.com/yourusername/d3f4ulttube/issues"
+Changelog = "https://github.com/yourusername/d3f4ulttube/blob/main/CHANGELOG.md"
+
+[project.scripts]
+d3f4ulttube-gui = "d3f4ulttube.gui.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+d3f4ulttube = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
