@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.9"
 license = { file = "LICENSE" }
 authors = [
-    { name = "Your Name", email = "you@example.com" }
+    { name = "D3F4ULT64" }
 ]
 keywords = ["youtube", "yt-dlp", "downloader", "video", "audio", "turtle"]
 classifiers = [
@@ -37,10 +37,10 @@ gui-qt5 = ["PySide2>=5.15"]
 dev = ["pytest>=7.4", "build>=1.0"]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/d3f4ulttube"
-Repository = "https://github.com/yourusername/d3f4ulttube"
-Issues = "https://github.com/yourusername/d3f4ulttube/issues"
-Changelog = "https://github.com/yourusername/d3f4ulttube/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/D3F4ULT64/d3f4ulttube"
+Repository = "https://github.com/D3F4ULT64/d3f4ulttube"
+Issues = "https://github.com/D3F4ULT64/d3f4ulttube/issues"
+Changelog = "https://github.com/D3F4ULT64/d3f4ulttube/blob/main/CHANGELOG.md"
 
 [project.scripts]
 d3f4ulttube-gui = "d3f4ulttube.gui.app:main"

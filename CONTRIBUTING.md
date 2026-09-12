@@ -5,7 +5,7 @@ Thanks for considering a contribution! 🐢
 ## Getting set up
 
 ```bash
-git clone https://github.com/yourusername/d3f4ulttube.git
+git clone https://github.com/D3F4ULT64/d3f4ulttube.git
 cd d3f4ulttube
 python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev,gui]"
